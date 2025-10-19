@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mendrix Consultancy Pro 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: mendrix-cli\n"
+
+#: inc/setup.php:24
+msgid "Primary Navigation"
+msgstr ""
+
+#: inc/setup.php:25
+msgid "Footer Navigation"
+msgstr ""
+
+#: inc/setup.php:26
+msgid "Utility Navigation"
+msgstr ""
+
+#: inc/setup.php:35
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/setup.php:38
+msgid "Widgets in this area will be shown in the footer."
+msgstr ""
+
+#: inc/patterns.php:11
+msgid "Mendrix Hero"
+msgstr ""
+
+#: inc/patterns.php:12
+msgid "Mendrix Services"
+msgstr ""
+
+#: inc/patterns.php:13
+msgid "Mendrix Sections"
+msgstr ""
+
+#: inc/patterns.php:14
+msgid "Mendrix Call to Action"
+msgstr ""
+
+#: inc/patterns.php:15
+msgid "Mendrix Blog"
+msgstr ""
+
+#: inc/patterns.php:16
+msgid "Mendrix Footers"
+msgstr ""

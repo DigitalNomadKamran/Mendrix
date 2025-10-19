@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mendrix Consultancy Pro Theme Preview</title>
+  <desc id="desc">Placeholder screenshot for the Mendrix Consultancy Pro WordPress theme.</desc>
+  <rect width="1200" height="900" fill="#ffffff"/>
+  <rect y="0" width="1200" height="220" fill="#dc0000"/>
+  <rect y="220" width="1200" height="680" fill="#f7f7f7"/>
+  <text x="600" y="140" fill="#ffffff" font-size="72" font-family="'Playfair Display', serif" text-anchor="middle">Mendrix Consultancy Pro</text>
+  <text x="600" y="360" fill="#2f3033" font-size="36" font-family="'Inter', sans-serif" text-anchor="middle">Premium Consulting Block Theme</text>
+  <text x="600" y="430" fill="#636869" font-size="26" font-family="'Inter', sans-serif" text-anchor="middle">Hero · Services · Industries · Case Studies · Testimonials</text>
+  <rect x="350" y="520" width="200" height="80" rx="12" fill="#dc0000"/>
+  <text x="450" y="570" fill="#ffffff" font-size="28" font-family="'Inter', sans-serif" text-anchor="middle">Book Consultation</text>
+  <rect x="650" y="520" width="200" height="80" rx="12" fill="#ffffff" stroke="#dc0000" stroke-width="3"/>
+  <text x="750" y="570" fill="#dc0000" font-size="28" font-family="'Inter', sans-serif" text-anchor="middle">View Case Studies</text>
+</svg>

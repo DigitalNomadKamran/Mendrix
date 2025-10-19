@@ -1,0 +1,98 @@
+/*
+Theme Name: Mendrix Consultancy Pro
+Theme URI: https://example.com/mendrix-consultancy-pro
+Author: Mendrix Studio
+Author URI: https://example.com
+Description: Premium corporate WordPress block theme tailored for consulting firms with polished patterns and onboarding guidance.
+Tags: block-patterns, block-styles, custom-colors, custom-logo, accessibility-ready, full-site-editing, wide-blocks, editor-style, blog, corporate, portfolio
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 6.6
+Requires PHP: 8.1
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mendrix-consultancy-pro
+*/
+
+/* Root tokens (sync with theme.json) */
+:root{
+  --mc-primary:#dc0000;
+  --mc-accent:#dd0000;
+  --mc-text:#636869;
+  --mc-bg:#ffffff;
+  --mc-muted:#f7f7f7;
+  --mc-radius-sm:4px;
+  --mc-radius-md:8px;
+  --mc-radius-lg:16px;
+  --mc-shadow-soft:0 8px 24px rgba(0,0,0,.08);
+}
+
+/* Skip link */
+.skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip-link:focus{left:1rem;top:1rem;width:auto;height:auto;padding:.75rem 1rem;background:#000;color:#fff;z-index:9999;border-radius:var(--mc-radius-sm);box-shadow:0 4px 12px rgba(0,0,0,.18)}
+
+/* Sticky header */
+.site-header{transition:box-shadow .3s ease,background-color .3s ease}
+.site-header.is-sticky{position:sticky;top:0;z-index:999;background:rgba(255,255,255,.96);backdrop-filter:saturate(180%) blur(12px);box-shadow:0 8px 32px rgba(0,0,0,.08)}
+.has-transparent-header .site-header{background:transparent;box-shadow:none}
+.has-transparent-header .site-header.is-fixed{background:rgba(255,255,255,.96);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+
+/* Navigation */
+.wp-block-navigation a{padding:.25rem 0}
+.wp-block-navigation__responsive-container.is-menu-open{backdrop-filter:blur(12px)}
+
+/* Links & focus */
+a{text-decoration-thickness:2px;text-underline-offset:3px}
+:where(a,button,[role="button"],input,textarea,.wp-element-button):focus{outline:2px solid var(--mc-accent);outline-offset:3px}
+
+/* Buttons */
+.wp-block-button .wp-block-button__link,.wp-element-button{border-radius:var(--mc-radius-md);font-weight:600;box-shadow:none;transition:transform .25s ease,box-shadow .25s ease}
+.wp-block-button .wp-block-button__link:hover,.wp-element-button:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(220,0,0,.18)}
+
+/* Cards */
+.mc-card{border-radius:var(--mc-radius-lg);box-shadow:0 14px 40px rgba(0,0,0,.06);padding:2.5rem;background:var(--mc-bg);transition:transform .3s ease,box-shadow .3s ease}
+.mc-card:hover{transform:translateY(-6px);box-shadow:0 18px 50px rgba(0,0,0,.1)}
+.mc-card.is-highlight{background:linear-gradient(135deg,#dc0000,#dd0000);color:#fff;box-shadow:0 18px 48px rgba(220,0,0,.35)}
+.mc-card.is-highlight h3,.mc-card.is-highlight p,.mc-card.is-highlight li{color:inherit}
+.mc-card.is-highlight .wp-block-button__link{color:var(--mc-primary)}
+
+/* Slider (scroll-snap) */
+.testimonial-slider{display:flex;gap:1.5rem;overflow-x:auto;padding-bottom:1rem;scroll-snap-type:x mandatory}
+.testimonial-slider > *{flex:0 0 320px;scroll-snap-align:start}
+.testimonial-slider::-webkit-scrollbar{height:8px}
+.testimonial-slider::-webkit-scrollbar-thumb{background:rgba(220,0,0,.4);border-radius:999px}
+
+/* FAQ accordion summary icon */
+.details-accordion summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;font-weight:600}
+.details-accordion summary::-webkit-details-marker{display:none}
+
+/* Quotes */
+.wp-block-quote{border-left:4px solid var(--mc-primary);padding-left:1.5rem;font-style:italic}
+
+/* Tables */
+.wp-block-table td,.wp-block-table th{padding:.75rem 1rem;border-bottom:1px solid rgba(99,104,105,.15)}
+.wp-block-table tr:nth-child(odd){background-color:rgba(247,247,247,.6)}
+
+/* Forms */
+.wp-block-search .wp-block-search__input, .wp-block-contact-form input, .wp-block-contact-form textarea,
+input[type="text"],input[type="email"],textarea{border-radius:var(--mc-radius-md);padding:.75rem 1rem;border:1px solid rgba(99,104,105,.3);transition:border-color .2s ease,box-shadow .2s ease}
+input[type="text"]:focus,input[type="email"]:focus,textarea:focus{border-color:var(--mc-primary);box-shadow:0 0 0 3px rgba(220,0,0,.18)}
+
+/* Animations (reduced-motion aware) */
+@media (prefers-reduced-motion:no-preference){
+  .fade-in{animation:fadeIn .6s ease-out both}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+}
+
+/* Responsive helpers */
+.container-narrow{max-width:720px;margin-inline:auto}
+.container-wide{max-width:1200px;margin-inline:auto}
+@media (max-width:781px){.mc-card{padding:1.75rem}}
+
+/* RTL tweaks */
+body.rtl .wp-block-quote{border-left:none;border-right:4px solid var(--mc-primary);padding-right:1.5rem;padding-left:0}
+body.rtl .testimonial-slider{direction:rtl}
+body.rtl .skip-link:focus{left:auto;right:1rem}

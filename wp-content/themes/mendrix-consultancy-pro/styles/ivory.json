@@ -1,0 +1,18 @@
+{
+  "title": "Ivory",
+  "version": 3,
+  "styles": {
+    "color": {
+      "background": "#fefaf7",
+      "text": "#2f3033"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "background": "var(--wp--preset--color--accent)",
+          "text": "#ffffff"
+        }
+      }
+    }
+  }
+}
