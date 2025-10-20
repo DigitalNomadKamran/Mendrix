@@ -4,7 +4,7 @@
 2. **Create a Home page**, set template to *Front Page* (from Templates list), and publish.
 3. Inside the Site Editor, insert these patterns in order to mirror the demo layout:
    1. `Hero Consulting`
-   2. `Services – 3 Up`
+   2. `Services – 3 Up (Immigration, Education, Business)`
    3. `Industries Grid`
    4. `Stats Band`
    5. `Case Studies List`

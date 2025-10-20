@@ -4,7 +4,7 @@ Premium WordPress block theme for consulting firms, designed for WordPress 6.6+.
 
 ## Features
 - Branded design system with Inter & Playfair Display, WCAG AA contrast, and responsive layouts.
-- Sticky header, rich footer, and curated block patterns for hero, services, industries, stats, case studies, testimonials, blog, FAQ, and contact.
+- Sticky header, rich footer, and curated block patterns for hero, immigration/education/business services, industries, stats, case studies, testimonials, blog, FAQ, and contact.
 - Scrollable testimonial slider using CSS scroll snapping.
 - Schema-ready JSON-LD for Organisation and Breadcrumbs.
 - Local font-face support (downloaded via packaging script) with Google Fonts fallback in development.
@@ -18,7 +18,7 @@ Premium WordPress block theme for consulting firms, designed for WordPress 6.6+.
 ## Build the homepage
 Use the Site Editor to place patterns in this order:
 1. `Hero Consulting`
-2. `Services – 3 Up`
+2. `Services – 3 Up (Immigration, Education, Business)`
 3. `Industries Grid`
 4. `Stats Band`
 5. `Case Studies List`

@@ -13,10 +13,10 @@
     <!-- wp:column {"verticalAlignment":"center"} -->
     <div class="wp-block-column is-vertically-aligned-center">
       <!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"clamp(2.5rem,4vw,3.75rem)"}}} -->
-      <h1>Consulting that turns bold strategy into measurable momentum.</h1>
+      <h1>Immigration, education, and business consulting engineered for momentum.</h1>
       <!-- /wp:heading -->
       <!-- wp:paragraph {"fontSize":"lg"} -->
-      <p class="has-lg-font-size">We partner with education and corporate innovators to design programs, operationalise growth, and embed trustworthy AI across the enterprise.</p>
+      <p class="has-lg-font-size">We orchestrate compliant immigration programs, elevate academic portfolios, and unlock cross-border business expansion in one integrated consultancy.</p>
       <!-- /wp:paragraph -->
       <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
       <div class="wp-block-buttons">
@@ -31,7 +31,7 @@
       <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"},"style":{"spacing":{"blockGap":"1rem","margin":{"top":"1.5rem"}}}} -->
       <div class="wp-block-group">
         <!-- wp:paragraph {"fontSize":"sm"} -->
-        <p class="has-sm-font-size">Trusted by leaders at Global Universities, EdTech Scaleups, and Fortune 500 divisions.</p>
+        <p class="has-sm-font-size">Trusted by mobility leaders, global universities, and enterprise growth teams.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->

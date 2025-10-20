@@ -9,7 +9,7 @@
 <!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"5rem","bottom":"5rem"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group" id="services">
   <!-- wp:heading {"textAlign":"center"} -->
-  <h2 class="has-text-align-center">Capabilities engineered for measurable outcomes</h2>
+  <h2 class="has-text-align-center">Immigration, education, and business growth under one roof</h2>
   <!-- /wp:heading -->
   <!-- wp:paragraph {"align":"center","className":"container-narrow"} -->
   <p class="has-text-align-center container-narrow">Our strategists, operators, and technologists work shoulder-to-shoulder with your teams to build the systems and habits that drive sustainable growth.</p>
@@ -20,6 +20,30 @@
     <div class="wp-block-column">
       <!-- wp:group {"className":"mc-card","layout":{"type":"constrained"}} -->
       <div class="wp-block-group mc-card">
+        <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mc-service-icon"} -->
+        <figure class="wp-block-image size-full mc-service-icon"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/svg/icons/immigration.svg' ); ?>" alt="Immigration advisory icon" /></figure>
+        <!-- /wp:image -->
+        <!-- wp:heading {"level":3} -->
+        <h3>Immigration Advisory</h3>
+        <!-- /wp:heading -->
+        <!-- wp:paragraph -->
+        <p>Navigate global mobility programs, compliance, and relocation so your talent can contribute from day one.</p>
+        <!-- /wp:paragraph -->
+        <!-- wp:list -->
+        <ul><li>Workforce visa strategy</li><li>Sponsorship compliance reviews</li><li>Employee relocation playbooks</li></ul>
+        <!-- /wp:list -->
+      </div>
+      <!-- /wp:group -->
+    </div>
+    <!-- /wp:column -->
+
+    <!-- wp:column -->
+    <div class="wp-block-column">
+      <!-- wp:group {"className":"mc-card","layout":{"type":"constrained"}} -->
+      <div class="wp-block-group mc-card">
+        <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mc-service-icon"} -->
+        <figure class="wp-block-image size-full mc-service-icon"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/svg/icons/education.svg' ); ?>" alt="Education consulting icon" /></figure>
+        <!-- /wp:image -->
         <!-- wp:heading {"level":3} -->
         <h3>Education Consulting</h3>
         <!-- /wp:heading -->
@@ -36,8 +60,11 @@
 
     <!-- wp:column -->
     <div class="wp-block-column">
-      <!-- wp:group {"className":"mc-card","layout":{"type":"constrained"}} -->
-      <div class="wp-block-group mc-card">
+      <!-- wp:group {"className":"mc-card","layout":{"type":"constrained","justifyContent":"stretch"}} -->
+      <div class="wp-block-group mc-card is-highlight">
+        <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mc-service-icon"} -->
+        <figure class="wp-block-image size-full mc-service-icon"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/svg/icons/business.svg' ); ?>" alt="Business expansion icon" /></figure>
+        <!-- /wp:image -->
         <!-- wp:heading {"level":3} -->
         <h3>Business Expansion</h3>
         <!-- /wp:heading -->
@@ -46,24 +73,6 @@
         <!-- /wp:paragraph -->
         <!-- wp:list -->
         <ul><li>Market intelligence</li><li>Revenue operations</li><li>Partner ecosystem design</li></ul>
-        <!-- /wp:list -->
-      </div>
-      <!-- /wp:group -->
-    </div>
-    <!-- /wp:column -->
-
-    <!-- wp:column -->
-    <div class="wp-block-column">
-      <!-- wp:group {"className":"mc-card","layout":{"type":"constrained"}} -->
-      <div class="wp-block-group mc-card">
-        <!-- wp:heading {"level":3} -->
-        <h3>Custom AI Solutions</h3>
-        <!-- /wp:heading -->
-        <!-- wp:paragraph -->
-        <p>Architect trustworthy AI blueprints, copilots, and governance frameworks that accelerate teams without compromising ethics.</p>
-        <!-- /wp:paragraph -->
-        <!-- wp:list -->
-        <ul><li>Responsible AI governance</li><li>Workflow copilots</li><li>Analytics accelerators</li></ul>
         <!-- /wp:list -->
       </div>
       <!-- /wp:group -->

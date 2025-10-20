@@ -55,6 +55,8 @@ a{text-decoration-thickness:2px;text-underline-offset:3px}
 .mc-card.is-highlight{background:linear-gradient(135deg,#dc0000,#dd0000);color:#fff;box-shadow:0 18px 48px rgba(220,0,0,.35)}
 .mc-card.is-highlight h3,.mc-card.is-highlight p,.mc-card.is-highlight li{color:inherit}
 .mc-card.is-highlight .wp-block-button__link{color:var(--mc-primary)}
+.mc-service-icon{width:64px;height:64px;margin-bottom:1.25rem;display:flex;align-items:center;justify-content:center;border-radius:50%;background:rgba(220,0,0,.08)}
+.mc-service-icon img{display:block;width:36px;height:auto}
 
 /* Slider (scroll-snap) */
 .testimonial-slider{display:flex;gap:1.5rem;overflow-x:auto;padding-bottom:1rem;scroll-snap-type:x mandatory}
